@@ -12,25 +12,21 @@ package Queue;
 public class AntrianApp {
      public static void main(String[] args) {
         Antrian antrian = new Antrian(10);
-        antrian.enqueue(40);
+        antrian.enqueue(5);
         antrian.display();
-        antrian.enqueue(33);
+        antrian.enqueue(60);
         antrian.display();
         long nilai1 = antrian.peek();
         System.out.println("nilai yang paling depan = "+nilai1);
-        antrian.enqueue(60);
+        System.out.println("Nama nur muhamad zaki");
+        System.out.println("");
+        antrian.enqueue(70);
         antrian.display();
         long nilai2 = antrian.dequeue();
         System.out.println("yang diambil dari antrian = "+nilai2);
         antrian.display();
-        long nilai3 = antrian.dequeue();
-        System.out.println("yang diambil dari antrian = "+nilai3);
-        antrian.display();
-        antrian.enqueue(54);
-        antrian.display();
         long nilai4 = antrian.peek();
         System.out.println("nilai yang paling depan = "+nilai4);
-        
         System.out.println("Nur muhamad zaki zamani");
     }
 }
