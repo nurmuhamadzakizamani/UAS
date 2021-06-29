@@ -12,7 +12,7 @@ package Queue;
 public class AntrianApp {
      public static void main(String[] args) {
         Antrian antrian = new Antrian(10);
-        antrian.enqueue(8);
+        antrian.enqueue(5);
         antrian.display();
         antrian.enqueue(60);
         antrian.display();
