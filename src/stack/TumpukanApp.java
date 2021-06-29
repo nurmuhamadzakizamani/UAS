@@ -22,6 +22,8 @@ public class TumpukanApp {
         System.out.println("Nama saya Nur Muhamad Zaki Zamani ");
         long nilai2 = tumpukan.pop();
         System.out.println("nilai yang dihapus = "+nilai2);
+        tumpukan.baca();
+        System.out.print("");
         tumpukan.push(40);
         tumpukan.baca();
         tumpukan.push(50);
