@@ -12,7 +12,7 @@ package stack;
 public class TumpukanApp {
      public static void main (String [] args) {
         Tumpukan tumpukan= new Tumpukan(10);
-        tumpukan.push(5);
+        tumpukan.push(8);
         tumpukan.baca();
         tumpukan.push(30);
         tumpukan.baca();
